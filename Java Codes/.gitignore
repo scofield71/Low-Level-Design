@@ -1,0 +1,56 @@
+# --- C++ / Native Binaries ---
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+# Ignore build directories from CMake or manual builds
+build/
+cmake-build-debug/
+cmake-build-release/
+out/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+*.ipr
+# Keep existing out rules if you have specific nested needs
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+# --- Eclipse ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# --- NetBeans ---
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- VS Code ---
+.vscode/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs and Temp ---
+*.log
+tmp/
+temp/
